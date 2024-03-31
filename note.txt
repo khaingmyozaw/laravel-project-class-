@@ -1,0 +1,21 @@
+MVC
+
+Model
+ ==> data
+
+
+
+View
+ ==> Ui
+
+Model code နဲ့ View code ခွဲရေးရမယ်
+
+Control
+ Request control code တွေကိုလည်း သီးသန့် ရေးရမယ်
+
+1.request -> Controler
+2. Controller -> Model ( to get data )
+3. Model -> Controller ( Controller got data but user not understand )
+4. Model -> View ( make ui )
+5. View -> Model
+6. Model -> request ( to User )
